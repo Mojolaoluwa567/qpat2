@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QPAT Solutions | Home</title>
+    <link rel="shortcut icon" href="assets\img\fav.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;700&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Locomotive Scroll CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="intro-body">
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="menu-close" id="menuClose">✕</button>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.htm">Contact</a>
+    </div>
+
+    <header class="navbar" id="navbar">
+      <a href="#" class="nav-logo"
+        ><span class="logo-dot"></span>Q<span class="acc">PAT</span></a
+      >
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </header>
+
+    <main id="js-scroll" data-scroll-container>
+      <!-- ═══ HERO ═══ -->
+      <section class="contact-hero" data-scroll-section>
+        <div class="contact-hero-bg"></div>
+        <div class="ch-lines"></div>
+        <div class="ch-glow-1"></div>
+        <div class="ch-glow-2"></div>
+        <div class="contact-hero-content">
+          <div class="contact-eyebrow">
+            <span class="dot"></span>We'd Love to Hear From You
+          </div>
+          <h1>
+            <span class="stroke">Let's Start a</span>
+            <span class="solid">Conversation</span>
+            <span class="col-pink">Today.</span>
+          </h1>
+          <p class="contact-hero-sub">
+            Whether you're a student, a parent, or an institution — reach out
+            and we'll guide you to the right programme for your goals.
+          </p>
+        </div>
+      </section>
+
+      <!-- ═══ MARQUEE ═══ -->
+      <div class="marquee-wrap" data-scroll-section>
+        <div class="marquee-track">
+          <div class="marquee-item">Book a Consultation</div>
+          <div class="marquee-item">SAT Enquiries</div>
+          <div class="marquee-item">Scholarship Guidance</div>
+          <div class="marquee-item">Study Abroad</div>
+          <div class="marquee-item">Admissions Support</div>
+          <div class="marquee-item">Career Counselling</div>
+          <div class="marquee-item">WhatsApp Us</div>
+          <div class="marquee-item">Get in Touch</div>
+          <div class="marquee-item">Book a Consultation</div>
+          <div class="marquee-item">SAT Enquiries</div>
+          <div class="marquee-item">Scholarship Guidance</div>
+          <div class="marquee-item">Study Abroad</div>
+          <div class="marquee-item">Admissions Support</div>
+          <div class="marquee-item">Career Counselling</div>
+          <div class="marquee-item">WhatsApp Us</div>
+          <div class="marquee-item">Get in Touch</div>
+        </div>
+      </div>
+
+      <!-- ═══ MAIN CONTACT ═══ -->
+      <section class="contact-main" data-scroll-section>
+        <div class="contact-grid">
+          <!-- LEFT: FORM -->
+          <div class="contact-form-side" data-reveal="left">
+            <div class="section-label sl-pink">Send Us a Message</div>
+            <h2>Tell Us About<br />Your <em>Goals</em></h2>
+            <p>
+              Fill in the form and one of our advisors will get back to you
+              within 24 hours. No obligation — just an honest conversation about
+              how we can help.
+            </p>
+
+            <div class="contact-socials">
+              <a href="#" class="csoc"
+                ><span class="csoc-dot"></span>Instagram</a
+              >
+              <a href="#" class="csoc"
+                ><span class="csoc-dot" style="background: var(--sky)"></span
+                >LinkedIn</a
+              >
+              <a href="#" class="csoc"
+                ><span class="csoc-dot" style="background: var(--white)"></span
+                >Twitter / X</a
+              >
+            </div>
+
+            <form class="cf" id="contactForm" onsubmit="handleSubmit(event)">
+              <div class="cf-row">
+                <input type="text" placeholder="Your Full Name" required />
+                <input type="email" placeholder="Email Address" required />
+              </div>
+              <div class="cf-row">
+                <input type="tel" placeholder="Phone Number" />
+                <select>
+                  <option value="" disabled selected>
+                    Service of Interest
+                  </option>
+                  <option>Admissions Advisory</option>
+                  <option>SAT / Test Preparation</option>
+                  <option>Scholarship Support</option>
+                  <option>Career Counselling</option>
+                  <option>Private Tutoring</option>
+                  <option>Study Abroad Package</option>
+                  <option>Graduate Advancement</option>
+                  <option>Enrichment Programs</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <textarea
+                placeholder="Tell us about your goals, current academic level, and how we can help you..."
+              ></textarea>
+              <button type="submit" class="cf-submit">
+                Send Message <span class="arr">→</span>
+              </button>
+            </form>
+          </div>
+
+          <!-- RIGHT: INFO -->
+          <div class="contact-info-side" data-reveal="right">
+            <div class="section-label sl-lime">Contact Details</div>
+
+            <div class="info-card">
+              <div class="info-icon">📞</div>
+              <div>
+                <div class="info-label">Call Us</div>
+                <div class="info-value">
+                  <a href="tel:08073333000">0807 333 3000</a><br />
+                  <a href="tel:08133054163">0813 305 4163</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">✉️</div>
+              <div>
+                <div class="info-label">Send an Email</div>
+                <div class="info-value">
+                  <a href="mailto:info@qpatsolutions.com"
+                    >info@qpatsolutions.com</a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <div class="info-icon">📍</div>
+              <div>
+                <div class="info-label">Office Address</div>
+                <div class="info-value">
+                  Suite A1, MKO Abiola Gardens Shopping Complex,<br />Alausa,
+                  Ikeja, Lagos
+                </div>
+              </div>
+            </div>
+
+            <a
+              href="https://wa.me/2348073333000"
+              class="wa-btn"
+              target="_blank"
+              rel="noopener"
+            >
+              <div class="wa-icon">💬</div>
+              <div class="wa-text">
+                <strong>Chat on WhatsApp</strong>
+                <span>Fastest way to reach us — reply within minutes</span>
+              </div>
+            </a>
+
+            <div class="hours-card">
+              <h4>🕐 Office Hours</h4>
+              <div class="hours-row">
+                <span class="day">Monday – Friday</span
+                ><span class="time"
+                  >9:00 AM – 5:00 PM <span class="badge-open">OPEN</span></span
+                >
+              </div>
+              <div class="hours-row">
+                <span class="day">Saturday</span
+                ><span class="time"
+                  >10:00 AM – 2:00 PM <span class="badge-open">OPEN</span></span
+                >
+              </div>
+              <div class="hours-row">
+                <span class="day">Sunday</span
+                ><span class="time"
+                  ><span class="badge-closed">CLOSED</span></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ MAP ═══ -->
+      <section class="map-section" data-scroll-section>
+        <div class="map-inner">
+          <div class="map-header" data-reveal>
+            <div>
+              <div class="section-label sl-sky">Find Us</div>
+              <h3>Visit Our Office</h3>
+            </div>
+            <p>
+              Suite A1, MKO Abiola Gardens Shopping Complex, Alausa, Ikeja —
+              easily accessible from all parts of Lagos.
+            </p>
+          </div>
+          <div class="map-frame" data-reveal data-delay="2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.123456789!2d3.357123!3d6.605123!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8b3c6e4b1234%3A0xabcdef1234567890!2sMKO%20Abiola%20Gardens%20Shopping%20Complex%2C%20Alausa%2C%20Ikeja!5e0!3m2!1sen!2sng!4v1700000000000!5m2!1sen!2sng"
+              allowfullscreen
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+            <div class="map-overlay-card">
+              <strong><span class="map-pin">📍</span>QPAT Solutions</strong>
+              <span
+                >Suite A1, MKO Abiola Gardens Shopping Complex, Alausa, Ikeja,
+                Lagos</span
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer data-scroll-section>
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-brand-name">
+              Q<span class="acc">PAT</span> Solutions
+            </div>
+            <p>
+              Empowering students through admissions placement, scholarships,
+              test preparation, and career-focused academic guidance.
+            </p>
+            <div class="footer-nl">
+              <label>Subscribe to our newsletter</label>
+              <div class="footer-nl-row">
+                <input type="email" placeholder="your@email.com" /><button>
+                  →
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="services.html">Admissions Placement</a></li>
+              <li><a href="services.html">Scholarship Assistance</a></li>
+              <li><a href="services.html">Test Preparation</a></li>
+              <li><a href="services.html">Career Guidance</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About QPAT</a></li>
+              <li><a href="achievements.html">Achievements</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="contact.html">Get in Touch</a></li>
+              <li><a href="https://wa.me/2348073333000">WhatsApp Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 QPAT Solutions. All rights reserved.</p>
+          <div class="footer-socials">
+            <a href="#">in</a><a href="#">ig</a><a href="#">𝕏</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"></script>
+
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+
+      // AOS must refresh on scroll for correct animation sync
+      scroll.on("scroll", () => {
+        AOS.refresh();
+      });
+    </script>
+
+    <!-- Your main JS must be loaded LAST -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
