@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QPAT Solutions | services</title>
+    <link rel="shortcut icon" href="assets\img\fav.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;700&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Locomotive Scroll CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="intro-body">
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="menu-close" id="menuClose">✕</button>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.htm">Contact</a>
+    </div>
+
+    <header class="navbar" id="navbar">
+      <a href="#" class="nav-logo"
+        ><span class="logo-dot"></span>Q<span class="acc">PAT</span></a
+      >
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </header>
+
+    <main id="js-scroll" data-scroll-container>
+      <section class="svc-hero" data-scroll-section>
+        <div class="svc-hero-bg"></div>
+        <div class="shape s1"></div>
+        <div class="shape s2"></div>
+        <div class="shape s3"></div>
+        <div class="orbit o1"></div>
+        <div class="orbit o2"></div>
+        <div class="orbit o3"></div>
+        <div class="svc-hero-content">
+          <div class="svc-eyebrow">
+            <span class="dot"></span>What We Do · How We Help
+          </div>
+          <h1>
+            <span class="outline">High-Impact</span>
+            <span class="solid">Education</span>
+            <span class="pink">Services.</span>
+          </h1>
+          <div class="svc-hero-bottom">
+            <p class="svc-hero-desc">
+              Eight carefully designed programmes to take you from where you are
+              — to where you're meant to be.
+            </p>
+            <div class="svc-count-row">
+              <div>
+                <div class="svc-count-num">8<span>+</span></div>
+                <div class="svc-count-label">Core Services</div>
+              </div>
+              <div>
+                <div class="svc-count-num">279<span>+</span></div>
+                <div class="svc-count-label">Students Served</div>
+              </div>
+              <div>
+                <div class="svc-count-num">98<span>%</span></div>
+                <div class="svc-count-label">Success Rate</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-hint">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <div class="marquee-wrap" data-scroll-section>
+        <div class="marquee-track">
+          <div class="marquee-item">Admissions Advisory</div>
+          <div class="marquee-item">Test Preparation</div>
+          <div class="marquee-item">Scholarship Support</div>
+          <div class="marquee-item">Career Counselling</div>
+          <div class="marquee-item">Private Tutoring</div>
+          <div class="marquee-item">Enrichment Programs</div>
+          <div class="marquee-item">Global Student Support</div>
+          <div class="marquee-item">Graduate Advancement</div>
+          <div class="marquee-item">Admissions Advisory</div>
+          <div class="marquee-item">Test Preparation</div>
+          <div class="marquee-item">Scholarship Support</div>
+          <div class="marquee-item">Career Counselling</div>
+          <div class="marquee-item">Private Tutoring</div>
+          <div class="marquee-item">Enrichment Programs</div>
+          <div class="marquee-item">Global Student Support</div>
+          <div class="marquee-item">Graduate Advancement</div>
+        </div>
+      </div>
+
+      <section class="services-main" data-scroll-section>
+        <div class="services-header">
+          <div>
+            <div class="section-label sl-pink" data-reveal>Our Services</div>
+            <h2 data-reveal data-delay="2">
+              Eight Ways We <em>Transform</em><br />Your Academic Future
+            </h2>
+          </div>
+          <div class="services-header-right">
+            <p data-reveal data-delay="3">
+              Every programme is structured, results-focused, and personalized
+              to your goals. Choose one or combine several for maximum impact.
+            </p>
+            <div class="filter-tabs" data-reveal data-delay="4">
+              <button class="ftab active">All</button
+              ><button class="ftab">Admissions</button
+              ><button class="ftab">Test Prep</button
+              ><button class="ftab">Career</button
+              ><button class="ftab">International</button>
+            </div>
+          </div>
+        </div>
+        <div class="svc-cards-grid">
+          <div class="svc-card" data-reveal data-delay="1">
+            <div class="svc-card-num">01</div>
+            <div class="svc-card-icon">📘</div>
+            <h3>Admissions Advisory</h3>
+            <p>
+              Structured guidance for undergraduate and postgraduate admissions,
+              helping students secure placement into top local, international,
+              and Ivy-League institutions.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Admissions</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="2">
+            <div class="svc-card-num">02</div>
+            <div class="svc-card-icon">📝</div>
+            <h3>Test Preparation</h3>
+            <p>
+              Focused SAT and entrance-exam preparation programmes designed to
+              improve aptitude skills, boost scores, and enhance academic
+              readiness for competitive institutions.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Test Prep</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="3">
+            <div class="svc-card-num">03</div>
+            <div class="svc-card-icon">🎓</div>
+            <h3>Scholarship Support</h3>
+            <p>
+              We assist students in securing partial and full scholarships
+              through strategic application planning, documentation support, and
+              competitive positioning.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Funding</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="4">
+            <div class="svc-card-num">04</div>
+            <div class="svc-card-icon">📊</div>
+            <h3>Career Counselling</h3>
+            <p>
+              Our career counselling services help students and professionals
+              align education choices with evolving job-market demands for
+              long-term, sustainable success.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Career</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="5">
+            <div class="svc-card-num">05</div>
+            <div class="svc-card-icon">👩‍🏫</div>
+            <h3>Private Tutoring</h3>
+            <p>
+              Personalized one-on-one tutoring, including reading skills
+              development and academic mentoring tailored to each learner's
+              pace, strengths, and goals.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Tutoring</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="6">
+            <div class="svc-card-num">06</div>
+            <div class="svc-card-icon">💻</div>
+            <h3>Enrichment Programs</h3>
+            <p>
+              Enrichment programmes that equip learners with practical skills in
+              technology, creative media, and digital innovation for long-term
+              career competitiveness.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Skills</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="7">
+            <div class="svc-card-num">07</div>
+            <div class="svc-card-icon">🌍</div>
+            <h3>Global Student Support</h3>
+            <p>
+              Accommodation sourcing, financial assistance coordination, and
+              parental guidance for students studying abroad — particularly in
+              the United States.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">International</span>
+            </div>
+          </div>
+          <div class="svc-card" data-reveal data-delay="8">
+            <div class="svc-card-num">08</div>
+            <div class="svc-card-icon">💼</div>
+            <h3>Graduate Advancement</h3>
+            <p>
+              Support for graduates and professionals pursuing Master's degrees,
+              career transitions, and long-term academic and professional growth
+              pathways.
+            </p>
+            <div class="svc-card-footer">
+              <a href="contact.html" class="svc-card-link">Get Started →</a
+              ><span class="svc-tag">Graduate</span>
+            </div>
+          </div>
+        </div>
+        <div class="svc-featured-wrap">
+          <div class="svc-featured" data-reveal data-delay="1">
+            <div class="svc-featured-icon">🌐</div>
+            <div class="svc-featured-body">
+              <h3>Complete Study Abroad Package</h3>
+              <p>
+                Our most comprehensive offering — combining admissions advisory,
+                scholarship support, global student services, and graduate
+                advancement into one seamless, guided journey. Ideal for
+                students aiming for placements in the US, UK, Canada, or
+                Germany.
+              </p>
+              <div class="svc-featured-tags">
+                <span class="svc-ftag">Admissions</span
+                ><span class="svc-ftag">Scholarships</span
+                ><span class="svc-ftag">Relocation Support</span
+                ><span class="svc-ftag">Mentorship</span>
+              </div>
+            </div>
+          </div>
+          <div class="svc-aside" data-reveal data-delay="2">
+            <h3>What's Included in Every Service</h3>
+            <ul class="svc-checklist">
+              <li>Personalized assessment & intake session</li>
+              <li>Dedicated advisor assigned to your case</li>
+              <li>Structured milestone tracking & reporting</li>
+              <li>Document review and strategic editing</li>
+              <li>Access to QPAT's resource library</li>
+              <li>Post-placement follow-up support</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="process-section" data-scroll-section>
+        <div class="process-header">
+          <div>
+            <div class="section-label sl-lime" data-reveal>How It Works</div>
+            <h2 data-reveal data-delay="2">
+              Our Simple<br /><em>5-Step Process</em>
+            </h2>
+          </div>
+          <p data-reveal data-delay="3">
+            From your first enquiry to your final placement, we've built a
+            clear, structured process that keeps you informed at every stage.
+          </p>
+        </div>
+        <div class="process-steps">
+          <div class="step" data-reveal data-delay="1">
+            <div class="step-dot">📋</div>
+            <div class="step-num">Step 01</div>
+            <h4>Free Consultation</h4>
+            <p>
+              Book a no-obligation call. We listen, understand your goals, and
+              recommend the right services.
+            </p>
+          </div>
+          <div class="step" data-reveal data-delay="2">
+            <div class="step-dot">🔍</div>
+            <div class="step-num">Step 02</div>
+            <h4>Assessment</h4>
+            <p>
+              We evaluate your academic profile, strengths, and target
+              institutions to build your roadmap.
+            </p>
+          </div>
+          <div class="step" data-reveal data-delay="3">
+            <div class="step-dot">🗺️</div>
+            <div class="step-num">Step 03</div>
+            <h4>Strategy Plan</h4>
+            <p>
+              A personalized, step-by-step strategy is designed with clear
+              timelines and deliverables.
+            </p>
+          </div>
+          <div class="step" data-reveal data-delay="4">
+            <div class="step-dot">🚀</div>
+            <div class="step-num">Step 04</div>
+            <h4>Execution</h4>
+            <p>
+              We work side-by-side — test prep, applications, documents,
+              interviews. All of it.
+            </p>
+          </div>
+          <div class="step" data-reveal data-delay="5">
+            <div class="step-dot">🏆</div>
+            <div class="step-num">Step 05</div>
+            <h4>Placement & Beyond</h4>
+            <p>
+              Celebrate your admission. Then we continue supporting you as you
+              settle in.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing-section" data-scroll-section>
+        <div class="pricing-header">
+          <div
+            class="section-label sl-sky"
+            style="justify-content: center"
+            data-reveal
+          >
+            Investment Plans
+          </div>
+          <h2 data-reveal data-delay="2">
+            Simple, <em>Transparent</em> Pricing
+          </h2>
+          <p data-reveal data-delay="3">
+            No hidden fees. Choose the plan that fits your goals. All plans
+            include a free initial consultation.
+          </p>
+        </div>
+        <div class="pricing-grid">
+          <div class="price-card" data-reveal data-delay="1">
+            <div class="price-tier">Starter</div>
+            <div class="price-name">Foundation</div>
+            <div class="price-desc">
+              Perfect for students who need focused support on one specific area
+              of their journey.
+            </div>
+            <ul class="price-features">
+              <li><span class="tick">✓</span>Single service access</li>
+              <li><span class="tick">✓</span>1 advisor session/month</li>
+              <li><span class="tick">✓</span>Document review (1 round)</li>
+              <li><span class="tick">✓</span>Email support</li>
+              <li class="muted"><span class="tick">–</span>Strategy roadmap</li>
+              <li class="muted"><span class="tick">–</span>Priority access</li>
+            </ul>
+            <a href="contact.html" class="price-btn outline">Get Started</a>
+          </div>
+          <div class="price-card popular" data-reveal data-delay="2">
+            <div class="price-tier">Most Popular</div>
+            <div class="price-name">Pathfinder</div>
+            <div class="price-desc">
+              Ideal for students pursuing full admissions support with
+              scholarship placement included.
+            </div>
+            <ul class="price-features">
+              <li><span class="tick">✓</span>Up to 3 services bundled</li>
+              <li><span class="tick">✓</span>Bi-weekly advisor sessions</li>
+              <li><span class="tick">✓</span>Full document review</li>
+              <li><span class="tick">✓</span>Scholarship hunting</li>
+              <li><span class="tick">✓</span>Personalized strategy roadmap</li>
+              <li class="muted">
+                <span class="tick">–</span>Dedicated advisor line
+              </li>
+            </ul>
+            <a href="contact.html" class="price-btn filled">Get Started</a>
+          </div>
+          <div class="price-card" data-reveal data-delay="3">
+            <div class="price-tier">Premium</div>
+            <div class="price-name">Elite</div>
+            <div class="price-desc">
+              Full end-to-end support for students aiming for top international
+              institutions.
+            </div>
+            <ul class="price-features">
+              <li><span class="tick">✓</span>All 8 services included</li>
+              <li><span class="tick">✓</span>Weekly 1-on-1 sessions</li>
+              <li><span class="tick">✓</span>Unlimited document reviews</li>
+              <li><span class="tick">✓</span>Full scholarship package</li>
+              <li><span class="tick">✓</span>Personal strategy roadmap</li>
+              <li>
+                <span class="tick">✓</span>Dedicated advisor + priority line
+              </li>
+            </ul>
+            <a href="contact.html" class="price-btn outline">Get Started</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section" data-scroll-section>
+        <div class="faq-inner">
+          <div class="faq-header">
+            <div
+              class="section-label sl-yellow"
+              style="justify-content: center"
+              data-reveal
+            >
+              Got Questions?
+            </div>
+            <h2 data-reveal data-delay="2">Frequently <em>Asked</em></h2>
+          </div>
+          <div class="faq-list" data-reveal data-delay="3">
+            <div class="faq-item">
+              <div class="faq-q">
+                <span>How long does the admissions process take?</span>
+                <div class="faq-icon">+</div>
+              </div>
+              <div class="faq-a">
+                <p>
+                  It varies by programme, but most students work with us for
+                  3–12 months. We recommend starting early to maximize your
+                  chances of placement and scholarship success.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">
+                <span>Can I combine multiple services?</span>
+                <div class="faq-icon">+</div>
+              </div>
+              <div class="faq-a">
+                <p>
+                  Absolutely. Most students use 2–3 services together. Our
+                  Pathfinder and Elite plans bundle services for a seamless
+                  experience at better value.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">
+                <span>Do you work with students outside Nigeria?</span>
+                <div class="faq-icon">+</div>
+              </div>
+              <div class="faq-a">
+                <p>
+                  Yes. While our core base is in Nigeria, we work with students
+                  across Africa and the diaspora. All sessions can be conducted
+                  virtually via Zoom or WhatsApp.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">
+                <span>What is your SAT preparation success rate?</span>
+                <div class="faq-icon">+</div>
+              </div>
+              <div class="faq-a">
+                <p>
+                  Students consistently achieve above-average scores. Many have
+                  improved by 200–400 points using our data-driven targeted
+                  study plans.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item">
+              <div class="faq-q">
+                <span>Is the initial consultation really free?</span>
+                <div class="faq-icon">+</div>
+              </div>
+              <div class="faq-a">
+                <p>
+                  Yes — completely free with no obligation. We use this session
+                  to understand your goals, evaluate your profile, and recommend
+                  the most appropriate services.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" data-scroll-section>
+        <div class="cta-inner">
+          <div
+            class="section-label sl-lime"
+            style="justify-content: center"
+            data-reveal
+          >
+            Let's Get Moving
+          </div>
+          <h2 data-reveal data-delay="2">
+            Ready to Choose<br />Your <em>Service?</em>
+          </h2>
+          <p data-reveal data-delay="3">
+            Start with a free consultation — no commitment, no pressure. Just a
+            conversation about your goals.
+          </p>
+          <div class="cta-btns" data-reveal data-delay="4">
+            <a href="contact.html" class="btn-primary"
+              >Book Free Consultation <span class="arrow">→</span></a
+            >
+            <a href="about.html" class="btn-ghost">Learn About Us</a>
+          </div>
+        </div>
+      </section>
+      <footer data-scroll-section>
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-brand-name">
+              Q<span class="acc">PAT</span> Solutions
+            </div>
+            <p>
+              Empowering students through admissions placement, scholarships,
+              test preparation, and career-focused academic guidance.
+            </p>
+            <div class="footer-nl">
+              <label>Subscribe to our newsletter</label>
+              <div class="footer-nl-row">
+                <input type="email" placeholder="your@email.com" /><button>
+                  →
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Admissions Placement</a></li>
+              <li><a href="#">Scholarship Assistance</a></li>
+              <li><a href="#">Test Preparation</a></li>
+              <li><a href="#">Career Guidance</a></li>
+              <li><a href="#">Study Abroad</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About QPAT</a></li>
+              <li><a href="achievements.html">Achievements</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="contact.html">Get in Touch</a></li>
+              <li><a href="#">WhatsApp Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 QPAT Solutions. All rights reserved.</p>
+          <div class="footer-socials">
+            <a href="#">in</a><a href="#">ig</a><a href="#">𝕏</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"></script>
+
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+
+      // AOS must refresh on scroll for correct animation sync
+      scroll.on("scroll", () => {
+        AOS.refresh();
+      });
+    </script>
+
+    <!-- Your main JS must be loaded LAST -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

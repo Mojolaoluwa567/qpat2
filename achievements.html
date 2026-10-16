@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QPAT Solutions | Achievement</title>
+    <link rel="shortcut icon" href="assets\img\fav.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@300;400;500;700&family=Space+Grotesk:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Locomotive Scroll CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+    />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="menu-close" id="menuClose">✕</button>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html">Services</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="contact.htm">Contact</a>
+    </div>
+
+    <header class="navbar" id="navbar">
+      <a href="#" class="nav-logo"
+        ><span class="logo-dot"></span>Q<span class="acc">PAT</span></a
+      >
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="achievements.html">Achievements</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </header>
+    <main id="js-scroll" data-scroll-container>
+      <!-- ═══ HERO ═══ -->
+      <section class="ach-hero" data-scroll-section>
+        <div class="ach-hero-bg"></div>
+        <div class="particles" id="particles"></div>
+        <div class="hero-glow-1"></div>
+        <div class="hero-glow-2"></div>
+        <div class="hero-glow-3"></div>
+
+        <div class="ach-hero-content">
+          <div class="ach-eyebrow">
+            <span class="dot"></span>Results · Records · Recognition
+          </div>
+          <h1>
+            <span class="stroke">Record-Breaking</span>
+            <span class="solid">Achievement</span>
+            <span class="col-lime">Journey.</span>
+          </h1>
+          <div class="ach-hero-bottom">
+            <p class="ach-hero-desc">
+              A living track record of outstanding academic results, global
+              scholarships, and test scores that redefine what Nigerian students
+              can achieve.
+            </p>
+            <div class="trophy-row">
+              <div class="trophy-pill">
+                <span class="pip" style="background: var(--yellow)"></span>🏆
+                GRE 99th Percentile
+              </div>
+              <div class="trophy-pill">
+                <span class="pip" style="background: var(--pink)"></span>🎯
+                Nigeria's Highest SAT
+              </div>
+              <div class="trophy-pill">
+                <span class="pip" style="background: var(--lime)"></span>🌍 $3M+
+                Scholarships
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="scroll-hint">
+          <span>Scroll</span>
+          <div class="scroll-line"></div>
+        </div>
+      </section>
+
+      <!-- ═══ MARQUEE ═══ -->
+      <div class="marquee-wrap" data-scroll-section>
+        <div class="marquee-track">
+          <div class="marquee-item">GRE 1580/1600</div>
+          <div class="marquee-item">GMAT 760/800</div>
+          <div class="marquee-item">SAT 2300/2400</div>
+          <div class="marquee-item">SAT 1570/1600</div>
+          <div class="marquee-item">99th Percentile</div>
+          <div class="marquee-item">First Class Honours</div>
+          <div class="marquee-item">Fortune 100 Placements</div>
+          <div class="marquee-item">$3M+ Scholarships</div>
+          <div class="marquee-item">GRE 1580/1600</div>
+          <div class="marquee-item">GMAT 760/800</div>
+          <div class="marquee-item">SAT 2300/2400</div>
+          <div class="marquee-item">SAT 1570/1600</div>
+          <div class="marquee-item">99th Percentile</div>
+          <div class="marquee-item">First Class Honours</div>
+          <div class="marquee-item">Fortune 100 Placements</div>
+          <div class="marquee-item">$3M+ Scholarships</div>
+        </div>
+      </div>
+
+      <!-- ═══ STAT CARDS ═══ -->
+      <section class="stats-banner" data-scroll-section>
+        <div class="stats-inner">
+          <div class="stat-big" data-reveal data-delay="1">
+            <span class="stat-big-icon">🏆</span>
+            <div class="stat-big-num" data-count="98">
+              98<span style="color: inherit; font-size: 2rem">%</span>
+            </div>
+            <div class="stat-big-label">
+              Of QPAT members secured full scholarships to US institutions
+            </div>
+          </div>
+          <div class="stat-big" data-reveal data-delay="2">
+            <span class="stat-big-icon">🎓</span>
+            <div class="stat-big-num">
+              96<span style="color: inherit; font-size: 2rem">%</span>
+            </div>
+            <div class="stat-big-label">
+              Graduated with First Class Honours from top global universities
+            </div>
+          </div>
+          <div class="stat-big" data-reveal data-delay="3">
+            <span class="stat-big-icon">🌍</span>
+            <div class="stat-big-num">
+              $3M<span style="color: inherit; font-size: 2rem">+</span>
+            </div>
+            <div class="stat-big-label">
+              In international scholarships facilitated for Nigerian students
+            </div>
+          </div>
+          <div class="stat-big" data-reveal data-delay="4">
+            <span class="stat-big-icon">📈</span>
+            <div class="stat-big-num">
+              99<span style="color: inherit; font-size: 2rem">th</span>
+            </div>
+            <div class="stat-big-label">
+              Percentile — highest recorded test scores in West Africa
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ SAT LEADERBOARD ═══ -->
+      <section class="scores-section" data-scroll-section>
+        <div class="scores-inner">
+          <div class="scores-header">
+            <div>
+              <div class="section-label sl-lime" data-reveal>
+                2025 SAT Results
+              </div>
+              <h2 data-reveal data-delay="2">Top Scoring <em>Students</em></h2>
+            </div>
+            <p data-reveal data-delay="3">
+              All scores achieved under QPAT's structured test preparation
+              programme. Multiple students placed in the global 99th percentile.
+            </p>
+          </div>
+
+          <div class="leaderboard" id="leaderboard">
+            <div class="lb-item rank-1" data-reveal data-delay="1">
+              <div class="lb-rank">🥇</div>
+              <div class="lb-info">
+                <div class="lb-name">Nigeria's Highest SAT</div>
+                <div class="lb-meta">Oct 2025 · 99th Percentile Global</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="95.8%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">2300 / 2400</div>
+              </div>
+              <div class="lb-score">2300<span>/ 2400</span></div>
+            </div>
+
+            <div class="lb-item rank-2" data-reveal data-delay="2">
+              <div class="lb-rank">🥈</div>
+              <div class="lb-info">
+                <div class="lb-name">Best O. Isijola</div>
+                <div class="lb-meta">Oct 2025 · Perfect 800 Math</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="98.1%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1570 / 1600</div>
+              </div>
+              <div class="lb-score">1570<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-item rank-3" data-reveal data-delay="3">
+              <div class="lb-rank">🥉</div>
+              <div class="lb-info">
+                <div class="lb-name">Mustapha O. Uthman</div>
+                <div class="lb-meta">Oct 2025 · Perfect 800 Math</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="96.9%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1550 / 1600</div>
+              </div>
+              <div class="lb-score">1550<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-divider"><span>More Top Performers</span></div>
+
+            <div class="lb-item" data-reveal data-delay="1">
+              <div
+                class="lb-rank"
+                style="color: rgba(249, 247, 244, 0.4); font-size: 0.8rem"
+              >
+                04
+              </div>
+              <div class="lb-info">
+                <div class="lb-name">Mobolaji J. Adeleke</div>
+                <div class="lb-meta">Sep 2025 · Reading, Writing & Math</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="96.3%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1540 / 1600</div>
+              </div>
+              <div class="lb-score">1540<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-item" data-reveal data-delay="2">
+              <div
+                class="lb-rank"
+                style="color: rgba(249, 247, 244, 0.4); font-size: 0.8rem"
+              >
+                05
+              </div>
+              <div class="lb-info">
+                <div class="lb-name">Godwin C. Nwosu</div>
+                <div class="lb-meta">Nov 2025 · 99th Percentile</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="95.6%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1530 / 1600</div>
+              </div>
+              <div class="lb-score">1530<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-item" data-reveal data-delay="3">
+              <div
+                class="lb-rank"
+                style="color: rgba(249, 247, 244, 0.4); font-size: 0.8rem"
+              >
+                06
+              </div>
+              <div class="lb-info">
+                <div class="lb-name">Mercy A. Okunlola</div>
+                <div class="lb-meta">Oct 2025 · 97th Percentile</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="93.1%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1490 / 1600</div>
+              </div>
+              <div class="lb-score">1490<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-item" data-reveal data-delay="4">
+              <div
+                class="lb-rank"
+                style="color: rgba(249, 247, 244, 0.4); font-size: 0.8rem"
+              >
+                07
+              </div>
+              <div class="lb-info">
+                <div class="lb-name">Oluwadarasimi A. Ayinde</div>
+                <div class="lb-meta">Nov 2025 · Top Global Candidate</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="92.5%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1480 / 1600</div>
+              </div>
+              <div class="lb-score">1480<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-item" data-reveal data-delay="5">
+              <div
+                class="lb-rank"
+                style="color: rgba(249, 247, 244, 0.4); font-size: 0.8rem"
+              >
+                08
+              </div>
+              <div class="lb-info">
+                <div class="lb-name">Toluwanimi M. Jegede</div>
+                <div class="lb-meta">Oct 2025 · Academic Mastery</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="91.9%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1470 / 1600</div>
+              </div>
+              <div class="lb-score">1470<span>/ 1600</span></div>
+            </div>
+
+            <div class="lb-item" data-reveal data-delay="6">
+              <div
+                class="lb-rank"
+                style="color: rgba(249, 247, 244, 0.4); font-size: 0.8rem"
+              >
+                09
+              </div>
+              <div class="lb-info">
+                <div class="lb-name">Temiloluwa O. Yomi-Dada</div>
+                <div class="lb-meta">Oct 2025 · 96th Percentile Global</div>
+              </div>
+              <div class="lb-bar-wrap">
+                <div class="lb-bar-bg">
+                  <div
+                    class="lb-bar-fill"
+                    style="width: 0%"
+                    data-width="91.3%"
+                  ></div>
+                </div>
+                <div class="lb-bar-label">1460 / 1600</div>
+              </div>
+              <div class="lb-score">1460<span>/ 1600</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ LEGACY TIMELINE ═══ -->
+      <section class="legacy-section" data-scroll-section>
+        <div class="legacy-header">
+          <div class="section-label sl-orange" data-reveal>Legacy Records</div>
+          <h2 data-reveal data-delay="2">
+            Historic Results That<br /><em>Started It All</em>
+          </h2>
+        </div>
+
+        <div class="tl-wrap">
+          <div class="tl-center-line"></div>
+
+          <!-- GRE 1580 -->
+          <div class="tl-item tl-left tl-c-pink" data-reveal="left">
+            <div class="tl-card-wrap">
+              <div class="tl-card">
+                <div class="tl-card-date">
+                  <div class="date-pip"></div>
+                  NOV 2005
+                </div>
+                <h4>GRE — 99th Percentile</h4>
+                <p>
+                  A QPAT member achieved a 99th percentile score of 1580/1600,
+                  the highest GRE result recorded at the time — setting a West
+                  African benchmark for academic excellence.
+                </p>
+                <div class="tl-score-chip">1580 / 1600</div>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-dot dot-pink"></div>
+              <div class="tl-year-badge">2005</div>
+            </div>
+            <div class="tl-spacer"></div>
+          </div>
+
+          <!-- GMAT 760 -->
+          <div class="tl-item tl-right tl-c-sky" data-reveal="right">
+            <div class="tl-spacer"></div>
+            <div class="tl-node">
+              <div class="tl-dot dot-sky"></div>
+              <div class="tl-year-badge">2004</div>
+            </div>
+            <div class="tl-card-wrap">
+              <div class="tl-card">
+                <div class="tl-card-date">
+                  <div class="date-pip"></div>
+                  JUN 2004
+                </div>
+                <h4>GMAT — Highest in West Africa</h4>
+                <p>
+                  Two QPAT students recorded the highest GMAT score in West
+                  Africa with 760/800, setting a regional benchmark for
+                  excellence that stood for years.
+                </p>
+                <div class="tl-score-chip">760 / 800</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GMAT 740 Best Nigerian Female -->
+          <div class="tl-item tl-left tl-c-lime" data-reveal="left">
+            <div class="tl-card-wrap">
+              <div class="tl-card">
+                <div class="tl-card-date">
+                  <div class="date-pip"></div>
+                  SEP 2005
+                </div>
+                <h4>GMAT — Best Nigerian Female Result</h4>
+                <p>
+                  The best Nigerian female GMAT result in 2005 with 740/800. The
+                  student later progressed to a second MBA programme at MIT — a
+                  testament to QPAT's life-changing impact.
+                </p>
+                <div class="tl-score-chip">740 / 800 · MIT MBA</div>
+              </div>
+            </div>
+            <div class="tl-node">
+              <div class="tl-dot dot-lime"></div>
+              <div class="tl-year-badge">2005</div>
+            </div>
+            <div class="tl-spacer"></div>
+          </div>
+
+          <!-- Global Scholarships ONGOING -->
+          <div class="tl-item tl-right tl-c-yellow" data-reveal="right">
+            <div class="tl-spacer"></div>
+            <div class="tl-node">
+              <div class="tl-dot dot-yellow"></div>
+              <div class="tl-year-badge">Ongoing</div>
+            </div>
+            <div class="tl-card-wrap">
+              <div class="tl-card">
+                <div class="tl-card-date">
+                  <div class="date-pip"></div>
+                  ONGOING
+                </div>
+                <h4>Global Scholarships & Fortune 100 Placements</h4>
+                <p>
+                  Over 98% of QPAT members secured full scholarships to U.S.
+                  institutions. 96% graduated with First Class Honours and are
+                  now placed in Fortune 100 companies worldwide.
+                </p>
+                <div class="tl-score-chip">
+                  98% · Full Scholarships · Fortune 100
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ SCHOLARSHIP CALLOUT ═══ -->
+      <section class="scholarship-section" data-scroll-section>
+        <div class="scholarship-inner" data-reveal>
+          <div class="scholarship-left">
+            <div class="section-label sl-lime">The Bigger Picture</div>
+            <h2>Beyond Test Scores —<br />Real <em>Life Impact</em></h2>
+            <p>
+              Our achievements aren't just numbers on a scorecard. They
+              represent students whose lives were transformed — who are now
+              engineers at Google, doctors in the UK, MBA graduates from MIT,
+              and leaders driving change across industries worldwide.
+            </p>
+          </div>
+          <div class="scholarship-right">
+            <div class="sch-stat">
+              <div class="sch-stat-icon">🎓</div>
+              <div>
+                <div class="sch-stat-num" style="color: var(--lime)">98%</div>
+                <div class="sch-stat-label">Full US Scholarship Rate</div>
+              </div>
+            </div>
+            <div class="sch-stat">
+              <div class="sch-stat-icon">🏅</div>
+              <div>
+                <div class="sch-stat-num" style="color: var(--yellow)">96%</div>
+                <div class="sch-stat-label">First Class Honours Graduates</div>
+              </div>
+            </div>
+            <div class="sch-stat">
+              <div class="sch-stat-icon">🌐</div>
+              <div>
+                <div class="sch-stat-num" style="color: var(--sky)">
+                  Fortune 100
+                </div>
+                <div class="sch-stat-label">
+                  Companies employing QPAT graduates
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ═══ CTA ═══ -->
+      <section class="cta-section" data-scroll-section>
+        <div class="cta-inner">
+          <div
+            class="section-label sl-pink"
+            style="justify-content: center"
+            data-reveal
+          >
+            Write Your Story
+          </div>
+          <h2 data-reveal data-delay="2">
+            Your Name Could Be<br />on This <em>List</em>
+          </h2>
+          <p data-reveal data-delay="3">
+            Join the growing roster of QPAT students who've broken records,
+            earned scholarships, and built extraordinary careers. It starts with
+            one decision.
+          </p>
+          <div class="cta-btns" data-reveal data-delay="4">
+            <a href="contact.html" class="btn-primary"
+              >Book a Free Consultation <span class="arrow">→</span></a
+            >
+            <a href="services.html" class="btn-ghost">Explore Services</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+      <footer data-scroll-section>
+        <div class="footer-top">
+          <div class="footer-brand">
+            <div class="footer-brand-name">
+              Q<span class="acc">PAT</span> Solutions
+            </div>
+            <p>
+              Empowering students through admissions placement, scholarships,
+              test preparation, and career-focused academic guidance.
+            </p>
+            <div class="footer-nl">
+              <label>Subscribe to our newsletter</label>
+              <div class="footer-nl-row">
+                <input type="email" placeholder="your@email.com" /><button>
+                  →
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="#">Admissions Placement</a></li>
+              <li><a href="#">Scholarship Assistance</a></li>
+              <li><a href="#">Test Preparation</a></li>
+              <li><a href="#">Career Guidance</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Company</h4>
+            <ul>
+              <li><a href="about.html">About QPAT</a></li>
+              <li><a href="achievements.html">Achievements</a></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <ul>
+              <li><a href="contact.html">Get in Touch</a></li>
+              <li><a href="#">WhatsApp Us</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>© 2025 QPAT Solutions. All rights reserved.</p>
+          <div class="footer-socials">
+            <a href="#">in</a><a href="#">ig</a><a href="#">𝕏</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.15.0/gsap.min.js"></script>
+
+    <!-- Locomotive Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+
+    <script>
+      // Initialize AOS
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+
+      // AOS must refresh on scroll for correct animation sync
+      scroll.on("scroll", () => {
+        AOS.refresh();
+      });
+    </script>
+
+    <!-- Your main JS must be loaded LAST -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
